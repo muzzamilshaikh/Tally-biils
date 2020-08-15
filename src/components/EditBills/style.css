@@ -1,0 +1,43 @@
+.edit-bill-container {
+}
+.edit-mode-done-btn {
+  cursor: pointer;
+}
+.edit-mode-done-btn:hover {
+  color: gold;
+}
+.edit-bill-row {
+}
+.edit-bill-row-content {
+}
+.delete-button {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: #ff0000;
+  font-weight: 600;
+}
+
+.edit-bill-title {
+  width: 100px;
+  display: inline-block;
+}
+.edit-bill-cost-input {
+  width: 200px;
+  display: inline-block;
+}
+
+/* Mobile size */
+@media only screen and (max-width: 600px) {
+  .delete-button {
+    width: 70px;
+  }
+
+  .edit-bill-title {
+    width: 70px;
+  }
+}
